@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seshu Babu Nandyala | .NET & ETRM Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:'Inter',sans-serif;
+      background:#0f172a;
+      color:#e2e8f0;
+      line-height:1.6;
+    }
+
+    a{
+      text-decoration:none;
+      color:#38bdf8;
+    }
+
+    .container{
+      width:90%;
+      max-width:1100px;
+      margin:auto;
+    }
+
+    header{
+      padding:80px 0 50px;
+      text-align:center;
+      background:linear-gradient(135deg,#0f172a,#1e293b);
+    }
+
+    header h1{
+      font-size:3rem;
+      margin-bottom:10px;
+      color:#ffffff;
+    }
+
+    header h2{
+      font-weight:400;
+      color:#94a3b8;
+      margin-bottom:20px;
+    }
+
+    .hero-text{
+      max-width:800px;
+      margin:auto;
+      color:#cbd5e1;
+    }
+
+    .contact{
+      margin-top:30px;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 22px;
+      border-radius:10px;
+      background:#38bdf8;
+      color:#0f172a;
+      font-weight:600;
+      transition:0.3s ease;
+    }
+
+    .btn:hover{
+      background:#0ea5e9;
+      transform:translateY(-2px);
+    }
+
+    section{
+      padding:70px 0;
+    }
+
+    .section-title{
+      font-size:2rem;
+      margin-bottom:30px;
+      color:#38bdf8;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(160px,1fr));
+      gap:15px;
+    }
+
+    .skill{
+      background:#1e293b;
+      padding:15px;
+      border-radius:12px;
+      text-align:center;
+      border:1px solid #334155;
+      transition:0.3s;
+    }
+
+    .skill:hover{
+      transform:translateY(-4px);
+      border-color:#38bdf8;
+    }
+
+    .timeline{
+      display:flex;
+      flex-direction:column;
+      gap:25px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:16px;
+      border:1px solid #334155;
+    }
+
+    .card h3{
+      color:#ffffff;
+      margin-bottom:5px;
+    }
+
+    .card .company{
+      color:#38bdf8;
+      font-weight:600;
+      margin-bottom:10px;
+    }
+
+    .card ul{
+      margin-left:18px;
+      margin-top:10px;
+    }
+
+    .certs{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+      gap:20px;
+    }
+
+    footer{
+      padding:40px 0;
+      text-align:center;
+      border-top:1px solid #1e293b;
+      color:#94a3b8;
+    }
+
+    @media(max-width:768px){
+      header h1{
+        font-size:2.2rem;
+      }
+
+      .section-title{
+        font-size:1.7rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Seshu Babu Nandyala</h1>
+      <h2>.NET Full Stack & ETRM Developer</h2>
+
+      <p class="hero-text">
+        Result-oriented software professional with 11+ years of experience
+        building enterprise-grade applications across Energy, Utilities,
+        Trading, and ETRM domains using .NET technologies, Endur integrations,
+        cloud-native systems, and scalable backend architectures.
+      </p>
+
+      <div class="contact">
+        <a class="btn" href="mailto:n.seshu.babu@gmail.com">Email Me</a>
+
+        <a class="btn"
+           href="https://linkedin.com/in/seshu-babu-nandyala"
+           target="_blank">
+           LinkedIn
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills">
+        <div class="skill">C#</div>
+        <div class="skill">.NET Core</div>
+        <div class="skill">ASP.NET MVC</div>
+        <div class="skill">Web API</div>
+        <div class="skill">SQL Server</div>
+        <div class="skill">Endur ETRM</div>
+        <div class="skill">AWS</div>
+        <div class="skill">Azure</div>
+        <div class="skill">Docker</div>
+        <div class="skill">Microservices</div>
+        <div class="skill">FIXML</div>
+        <div class="skill">WPF MVVM</div>
+        <div class="skill">DevOps</div>
+        <div class="skill">GitHub Copilot</div>
+        <div class="skill">REST & SOAP</div>
+        <div class="skill">Event Driven Systems</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <h2 class="section-title">Work Experience</h2>
+
+      <div class="timeline">
+
+        <div class="card">
+          <h3>Technology Lead (.NET Backend Developer)</h3>
+          <div class="company">BP p.l.c via Infosys Ltd | London | 2021 - Present</div>
+
+          <ul>
+            <li>Led modernization of the TradeBlotter ecosystem supporting global energy trading desks.</li>
+            <li>Built Endur plug-ins and reconciliation tools for trade validation and STP processing.</li>
+            <li>Optimized high-volume trade ingestion using multithreading and distributed caching.</li>
+            <li>Implemented resilient error handling and dead-letter queue strategies.</li>
+            <li>Worked closely with traders, analysts, and Endur teams on regulatory-driven delivery.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Technology Analyst (.NET Backend Developer)</h3>
+          <div class="company">e.On via Infosys Ltd | Nottingham | 2018 - 2021</div>
+
+          <ul>
+            <li>Developed secure digital payment gateway systems for utility billing transactions.</li>
+            <li>Built high-performance Web APIs integrating merchant and banking systems.</li>
+            <li>Implemented encryption and compliance-driven security practices.</li>
+            <li>Reduced payment failures and improved transaction reliability.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Technology Analyst</h3>
+          <div class="company">Anglian Water via Infosys Ltd | Hyderabad | 2017 - 2018</div>
+
+          <ul>
+            <li>Built enterprise desktop applications using WPF and MVVM architecture.</li>
+            <li>Worked on production support, bug fixing, and automated testing.</li>
+            <li>Collaborated with stakeholders to translate business requirements into technical solutions.</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <h2 class="section-title">Certifications & Awards</h2>
+
+      <div class="certs">
+
+        <div class="card">
+          <h3>AZ-204</h3>
+          <p>Developing Solutions for Microsoft Azure</p>
+        </div>
+
+        <div class="card">
+          <h3>Infosys Certified DevOps Engineer</h3>
+          <p>Certified in DevOps Engineering Practices</p>
+        </div>
+
+        <div class="card">
+          <h3>Project Excellence Award</h3>
+          <p>Infosys Ltd.</p>
+        </div>
+
+        <div class="card">
+          <h3>Project Champion Award</h3>
+          <p>BP p.l.c</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+
+      <h2 class="section-title">Education</h2>
+
+      <div class="card">
+        <h3>Bachelor of Technology (B.Tech)</h3>
+        <p>Electronics and Communication Engineering</p>
+        <p>JNTU Kakinada</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>
+        © 2026 Seshu Babu Nandyala • Built with HTML & CSS
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
